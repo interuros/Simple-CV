@@ -1,0 +1,128 @@
+
+
+
+
+@media screen and (max-width:1300px){
+   
+    h4{ font-size: 1.42vw;}
+    .header--h3--contact{ font-size: 2vw;}
+    .about_me--p{  font-size: 1.5vw; }
+    .language--p{ font-size: 1.5vw;}
+    .circles > div{
+        width: 5rem;
+        height: 5rem;
+    }
+    .learned_languages{ 
+        width: 5rem;
+        height: 5rem;
+        font-size: 0.7rem;
+    }
+    .skills > div{ margin-right: 0.5rem; }
+    .skills > div > div{ height: 0.6rem; }
+    .hobbies_list li{ font-size: 1.6vw; }
+    .description > p{
+        font-size: 1.4vw;
+        padding-bottom: 0.3rem;
+        font-weight: 500;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:800px){
+    
+    h4{ font-size: 1rem;}
+    .about_me--p{  font-size: 1.2rem;}
+    .bio__section--row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .header--row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }   
+    .contact{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }   
+    .header--h3--contact{ 
+        font-size: 1.2rem;
+        margin: 0.3rem;
+    }
+    .header__h1{ font-size: 7rem;}    
+    .about_me{ margin-bottom: 10rem;}
+    .education{ margin-bottom: 8rem;}  
+    .language--p{ font-size: 1.1rem;}
+    .circles > div{
+        width: 7rem;
+        height: 7rem;
+    }
+    .learned_languages{ 
+        width: 7rem;
+        height: 7rem;
+        font-size: 1rem;
+    }
+    .hobbies_list li{ font-size: 1.5rem;}
+    .description > p{ font-size: 1.15rem;}
+}
+
+
+
+
+
+@media screen and (max-width:520px){
+    
+    
+    .col__h3{ font-size: 1.2rem;}
+    .header__h1{ font-size: 5.7rem;}
+    .header__h3{ font-size: 1rem;}
+    .header--h3--contact{
+        font-size: 1rem;
+        color: #a3a6a8;
+    }
+    h4{ font-size: 0.8rem;}
+    
+    .language--p{ font-size: 0.8rem;}
+    .about_me--p{  font-size: 0.8rem;}
+    .circles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .circles > div{
+        width: 7.2rem;
+        height: 7.2rem;
+        margin-bottom: 1.3rem;
+    }
+    .learned_languages{ 
+        width: 7.2rem;
+        height: 7.2rem;
+        font-size: 0.9rem;
+    }
+    
+    .skills{ margin-bottom: 1rem;}
+    .skills > div{ margin-right: 0rem; }
+    .skills > div > div{ height: 0.4rem; }
+    .hobbies_list li{ font-size: 4vw; }
+    .description > p{ font-size: 0.9rem;}
+}

@@ -1,0 +1,35 @@
+.row{
+    margin: 2rem auto;
+    max-width: 88%;
+}
+
+.col{
+    width: 40%;
+    display: inline-table;
+}
+
+.span--1--of--2{
+    width: 100%;
+}
+
+.first__col{
+    margin-left: 4rem;
+}
+
+.second__col{
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:800px){
+    .col {
+        width: 100%;
+    }
+    
+    .first__col{
+        margin-left: 0;
+    }    
+    .second__col{
+        margin-right: 0;
+    }
+}
+
